@@ -10,8 +10,8 @@ You must deal correctly with the PATH and the environment (copy of system char *
 *    echo
 *    cd
 *    env
-    *    setenv
-    *    unsetenv
+  *    setenv
+  *    unsetenv
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
