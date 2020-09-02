@@ -6,12 +6,11 @@ You must program a mini UNIX command interpreter. This interpreter must display 
 The command lines are simple, no pipes, no redirections or any other advanced functions. The executable are those you can find in the paths indicated in the PATH variable. In cases where the executable cannot be found, it has to show an error message and display the prompt again. You must manage the errors without using errno, by displaying a message adapted to the error output.
 You must deal correctly with the PATH and the environment (copy of system char **environ). You must implement a series of builtins: 
 
-*    exit
-*    echo
-*    cd
-*    env
-  *    setenv
-  *    unsetenv
+* exit
+* echo
+* cd
+* setenv
+* unsetenv
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
